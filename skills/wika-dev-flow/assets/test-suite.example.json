@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "shared_paths": ["Program/Framework/*", "Program/CustomControl/*", "BIN/*.eds", "BIN/*.h", "BIN/*.var", "BIN/Database.db"],
+  "cases": [
+    {
+      "id": "T-001",
+      "requirement": "REQ-001",
+      "scope": "ui",
+      "smoke": true,
+      "paths": ["Program/Form_Main.qml", "Program/Form_Menu.qml"],
+      "assertions": [{"kind": "equals", "path": "target", "value": "menu"}]
+    },
+    {
+      "id": "T-002",
+      "requirement": "REQ-002",
+      "scope": "sdk_loopback",
+      "paths": ["Program/CanDataProcess.cpp", "BIN/can0.eds"],
+      "assertions": [
+        {"kind": "equals", "path": "received.variables", "value": [17, 34, 51, 68, 85, 102, 119, 136]},
+        {"kind": "frame", "id": "18FFABE5", "extended": true, "direction": "rx", "dlc": 8,
+         "data": "1122334455667788", "after_ms": 100, "before_ms": 500}
+      ]
+    }
+  ]
+}

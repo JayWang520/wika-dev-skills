@@ -1,0 +1,58 @@
+{
+  "source_dir": "Program",
+  "entry": "Program/main.qml",
+  "common": "Program/ComData/CommonData.js",
+  "viewport": "id_iRectangleWindow",
+  "page_container": "loader_Page",
+  "bar_instance": "id_ButtonBar",
+  "roles": {
+    "base": "Program/FormBase.qml",
+    "bar": "Program/Func/ButtonBar.qml",
+    "status": "Program/Func/StatusBar.qml"
+  },
+  "controls": {
+    "Control_Btn6": "Program/Control/Control_Btn6.qml",
+    "Control_Btn": "Program/Control/Control_Btn.qml"
+  },
+  "binding_sources": [
+    "Program/main.cpp"
+  ],
+  "framebuffer_size": [
+    1280,
+    800
+  ],
+  "program": {
+    "version": "ICM6901_TZ956E_V1.01_20261015",
+    "sha256": "f9c1bd9a1fdba8f2344d85414c3fbd178aa77f25433b600c4daa1348a2605ffe"
+  },
+  "pages": {
+    "main": {
+      "source": "Program/newForm/Form_MainPageXD.qml",
+      "uri": "qrc:/newForm/Form_MainPageXD.qml",
+      "title": "主界面",
+      "captures": [
+        "captures/main-0.png",
+        "captures/main-1.png"
+      ],
+      "form": "Program/newForm/Form_MainPageXD1.qml"
+    },
+    "menu": {
+      "source": "Program/newForm/Form_MainMenu.qml",
+      "uri": "qrc:/newForm/Form_MainMenu.qml",
+      "title": "主菜单",
+      "captures": [
+        "captures/menu-0.png",
+        "captures/menu-1.png"
+      ]
+    },
+    "version": {
+      "source": "Program/newForm/Form_Version.qml",
+      "uri": "qrc:/newForm/Form_Version.qml",
+      "title": "版本页",
+      "captures": [
+        "captures/version-0.png",
+        "captures/version-1.png"
+      ]
+    }
+  }
+}

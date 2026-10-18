@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "project": "ExamplePanel",
+  "confirmed": false,
+  "pro": "Program/ExamplePanel.pro",
+  "build": {
+    "directory": "build-ExamplePanel-IMX6-Release",
+    "qmake": "/opt/wika-display/2.8.13/sysroots/x86_64-pokysdk-linux/usr/bin/qmake",
+    "sdk_env": "/opt/wika-display/2.8.13/environment-setup-cortexa9t2hf-neon-poky-linux-gnueabi"
+  },
+  "artifact": {
+    "executable": "BIN/ExamplePanel",
+    "version": "ExamplePanel_V1.01_20261016",
+    "payload": {
+      "/myapp": "BIN/ExamplePanel",
+      "/can0.eds": "BIN/can0.eds",
+      "/can0.h": "BIN/can0.h",
+      "/can0.var": "BIN/can0.var",
+      "/Database.db": "BIN/Database.db",
+      "/logo.bin": "BIN/logo.bin"
+    }
+  },
+  "source_roots": ["Program"],
+  "database_policy": "preserve",
+  "device": {
+    "ssh": ["ssh", "-o", "BatchMode=yes", "display"],
+    "service": "wika-app.service",
+    "executable": "/apps/myapp",
+    "resource_dir": "/apps",
+    "framebuffer": "/dev/fb0",
+    "touch": "/dev/input/event1"
+  }
+}

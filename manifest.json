@@ -1,0 +1,312 @@
+{
+  "version": "2026.10.18",
+  "source_archive_sha256": "7fa21ecfc4d685cc61040287348a2b183d7cbd1ba90675079e042ec8895d42c8",
+  "included_skills": [
+    "wika-app-package",
+    "wika-build",
+    "wika-can-debug",
+    "wika-dev-flow",
+    "wika-displayer-online",
+    "wika-eds-edit",
+    "wika-translate-skill",
+    "wika-ui-index",
+    "codegraph",
+    "brainstorming",
+    "karpathy-guidelines",
+    "esafenet-share-decrypt",
+    "esafenet-decrypt"
+  ],
+  "included_skill_count": 13,
+  "external_skills": [
+    "docx",
+    "pdf",
+    "xlsx"
+  ],
+  "skill_validation": {
+    "wika-app-package": {
+      "returncode": 0,
+      "message": "Skill is valid!"
+    },
+    "wika-build": {
+      "returncode": 0,
+      "message": "Skill is valid!"
+    },
+    "wika-can-debug": {
+      "returncode": 0,
+      "message": "Skill is valid!"
+    },
+    "wika-dev-flow": {
+      "returncode": 0,
+      "message": "Skill is valid!"
+    },
+    "wika-displayer-online": {
+      "returncode": 0,
+      "message": "Skill is valid!"
+    },
+    "wika-eds-edit": {
+      "returncode": 0,
+      "message": "Skill is valid!"
+    },
+    "wika-translate-skill": {
+      "returncode": 0,
+      "message": "Skill is valid!"
+    },
+    "wika-ui-index": {
+      "returncode": 0,
+      "message": "Skill is valid!"
+    },
+    "codegraph": {
+      "returncode": 0,
+      "message": "Skill is valid!"
+    },
+    "brainstorming": {
+      "returncode": 0,
+      "message": "Skill is valid!"
+    },
+    "karpathy-guidelines": {
+      "returncode": 0,
+      "message": "Skill is valid!"
+    },
+    "esafenet-share-decrypt": {
+      "returncode": 0,
+      "message": "Skill is valid!"
+    },
+    "esafenet-decrypt": {
+      "returncode": 0,
+      "message": "Skill is valid!"
+    }
+  },
+  "portable_auth_checks_in_source_package": 15,
+  "python_syntax_files": 16,
+  "publication_edits": [
+    "External document implementations omitted; official sources linked",
+    "Private site networks replaced with RFC 5737 examples",
+    "UTF-8 and LF line endings"
+  ],
+  "files": {
+    ".gitattributes": {
+      "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c",
+      "bytes": 19
+    },
+    ".gitignore": {
+      "sha256": "f15915d0b4476e26f05e29749a58ef405a885e2f8dc820e77fbe1ef00e0b3bc6",
+      "bytes": 208
+    },
+    "docs/INSTALL.md": {
+      "sha256": "78138c32eb480c9e59acfd0bd9f4782ae5b1fff808f4adba3ca7fd4cfa35db71",
+      "bytes": 2318
+    },
+    "README.md": {
+      "sha256": "e64083f8a9684f954474fb487442df24515b273174a1587dce277eb7c4aaa787",
+      "bytes": 3041
+    },
+    "skills/brainstorming/scripts/frame-template.html": {
+      "sha256": "6a8a4e58bd6a44b904e2e3c57de774481d909204597e1498de53f1b2fecc4c4e",
+      "bytes": 8094
+    },
+    "skills/brainstorming/scripts/helper.js": {
+      "sha256": "43c6d69954a46ec34a2a262bcc62a9a7e83e839c739f199cb72646d397c686e3",
+      "bytes": 5615
+    },
+    "skills/brainstorming/scripts/server.cjs": {
+      "sha256": "2d2961ea8d11f56c5f4c3a1a68d22709efa5d7601a2246d8c880774e7e9e8412",
+      "bytes": 25693
+    },
+    "skills/brainstorming/scripts/start-server.sh": {
+      "sha256": "a4e5ae84275bcaacd2f84345afeabe59cf7b00ba080e123da7cc1fb226f12847",
+      "bytes": 6908
+    },
+    "skills/brainstorming/scripts/stop-server.sh": {
+      "sha256": "0b5ccbbd57f62d3ed88993f7940b5ee0e5c0fc9b21c550c623da4f6292e47daf",
+      "bytes": 3263
+    },
+    "skills/brainstorming/SKILL.md": {
+      "sha256": "74edf03ea6d24ef53db48677b93558d14a979bdf052ca3f57ecdca0c66791608",
+      "bytes": 15456
+    },
+    "skills/brainstorming/spec-document-reviewer-prompt.md": {
+      "sha256": "95a0a195de9d984be2fffa95bab16fc8c563bc296a9cfc5e9c29cb3ece0d7457",
+      "bytes": 1747
+    },
+    "skills/brainstorming/visual-companion.md": {
+      "sha256": "77eb44a4ec3408bb3dafb872288ecd94beb8cf21da4f2bafa54fd08255d7808b",
+      "bytes": 13383
+    },
+    "skills/codegraph/scripts/codegraph.py": {
+      "sha256": "dcfeb1784e27d8d0501e5a2e85811a8a0ec063efbfcd7748f74572746cbfa20d",
+      "bytes": 19120
+    },
+    "skills/codegraph/SKILL.md": {
+      "sha256": "86fd300d393977f7e8406d969efc69086e065750cce215b157e62ba524772f28",
+      "bytes": 3302
+    },
+    "skills/esafenet-decrypt/locales/en-US.json": {
+      "sha256": "4808f828ce4e0bc043ff70751ae0f2923483186c49e45b3a42039b26cb147a79",
+      "bytes": 159
+    },
+    "skills/esafenet-decrypt/locales/zh-CN.json": {
+      "sha256": "13669c03aaf0624ac65a8b9e36da5b0e769ad9967ded7884eca55349986649c0",
+      "bytes": 141
+    },
+    "skills/esafenet-decrypt/references/format.md": {
+      "sha256": "4080ca67b23e9636c432b1ecebb4af36560b696c5188ec051de499f592cb616c",
+      "bytes": 2441
+    },
+    "skills/esafenet-decrypt/scripts/esafenet.py": {
+      "sha256": "2e63ebf23f2666ccf6db6682425282a69e341adac02c0551c67cefc9ec7dc06b",
+      "bytes": 6663
+    },
+    "skills/esafenet-decrypt/SKILL.md": {
+      "sha256": "5cce6306bd20b5cbcfbcd308836f8bb6016ec92bcaef4c8ce05c5556d0d67563",
+      "bytes": 4083
+    },
+    "skills/esafenet-share-decrypt/SKILL.md": {
+      "sha256": "690110149988bf3f9a1743f5e78ff8ec308afab0aeb8bd6b349afac97909e808",
+      "bytes": 9521
+    },
+    "skills/karpathy-guidelines/SKILL.md": {
+      "sha256": "cc99a0fb0a0a2ace83dd6c24b6a26f55da45ca6e434a0fe60d7982baec47de47",
+      "bytes": 2511
+    },
+    "skills/wika-app-package/scripts/build_app.py": {
+      "sha256": "fa6d873aa4cc7646302d21c2826782b6714a25a1b9c9327a51212fb578f05b84",
+      "bytes": 2194
+    },
+    "skills/wika-app-package/scripts/make_userapp_zip.py": {
+      "sha256": "bf1c380289e983a0760ae4f1dfb43255c850ada7482650bf231e94c59be2540d",
+      "bytes": 1708
+    },
+    "skills/wika-app-package/scripts/verify_app.py": {
+      "sha256": "5c7af67522cb46dd2821e955c7607e2f35a5c6acda206c0335776047b561dae3",
+      "bytes": 4989
+    },
+    "skills/wika-app-package/SKILL.md": {
+      "sha256": "d378bba28ca00de08098471464538229c5aef1d2f57ce4e18c7a74b62c9b49f2",
+      "bytes": 7551
+    },
+    "skills/wika-build/scripts/build.py": {
+      "sha256": "335359938ea1e0608658df27365275e88fe02eaf14cfa4bcfad71bef6551792c",
+      "bytes": 5128
+    },
+    "skills/wika-build/SKILL.md": {
+      "sha256": "95061fc3d0a3525ebaf56863231ebff52de61073ffd8419db5a787a67e881760",
+      "bytes": 7637
+    },
+    "skills/wika-can-debug/references/icm7100-loopback.md": {
+      "sha256": "976f535144f20b71a7e16b1060359b7e8673d0e360ea2a70bee511a0e0199a4d",
+      "bytes": 6685
+    },
+    "skills/wika-can-debug/scripts/can_internal_sdk_probe.py": {
+      "sha256": "3d0384f4cb4df89c57da6bc25088a93463734e26c67e341cf5963c81601a040c",
+      "bytes": 5429
+    },
+    "skills/wika-can-debug/scripts/can_internal_supervisor.py": {
+      "sha256": "0d5a44ca56f50b75c697ea5df0ced3eb1c5128140e7848e211df2d9382643536",
+      "bytes": 3752
+    },
+    "skills/wika-can-debug/SKILL.md": {
+      "sha256": "1c7f7a3852cb64d2d65894dcaa553958e3427bb08e12c5e2263ea7d7899bb788",
+      "bytes": 5807
+    },
+    "skills/wika-dev-flow/assets/project-profile.example.json": {
+      "sha256": "de0ef9640b2c77877d74d6e89d34eb8e1c7a60097d608143dad43fa317a3d338",
+      "bytes": 996
+    },
+    "skills/wika-dev-flow/assets/test-suite.example.json": {
+      "sha256": "484ca40d7a5364799761c7fd5e055866296df1c05bce3aac67889e3815533925",
+      "bytes": 869
+    },
+    "skills/wika-dev-flow/assets/tz956e-v101-ui-plan.json": {
+      "sha256": "8b88c77c9042ef3f4e30863469642e9246d5541c3365a340acf672eb7b8b879b",
+      "bytes": 17138
+    },
+    "skills/wika-dev-flow/references/project-and-release.md": {
+      "sha256": "53eb109e3d7d175565aff5ea1cc5b5be39e4d570f52eb4e73496b03eb922e0d2",
+      "bytes": 5657
+    },
+    "skills/wika-dev-flow/references/test-evidence.md": {
+      "sha256": "5a4b0e46b2e18001e2635835a9bd7b0d95bd07f751b4aa869d4d0d45db233931",
+      "bytes": 6293
+    },
+    "skills/wika-dev-flow/references/ui-batch-test.md": {
+      "sha256": "fe0044180af811f7bf2b53b65c1c63bf98bb5a86f38734bfb87d7eefda1a3eb3",
+      "bytes": 7859
+    },
+    "skills/wika-dev-flow/scripts/flow_artifacts.py": {
+      "sha256": "86a066c604a7fbfc965d295d102ac8018c3954c42e5fab64a2581e62cb2c086c",
+      "bytes": 14924
+    },
+    "skills/wika-dev-flow/scripts/flow_tests.py": {
+      "sha256": "85a3972c8cc99fbcb448e222c9400d5f6fc22893199d3de8c1914c2c0c57d51c",
+      "bytes": 13355
+    },
+    "skills/wika-dev-flow/scripts/ui_batch_probe.py": {
+      "sha256": "7eeec43ad59e1005c43bed998f9532fbd922c123f918db97f96fdd6600d1ae4e",
+      "bytes": 7837
+    },
+    "skills/wika-dev-flow/SKILL.md": {
+      "sha256": "bcf81066d6ddedca8156bba824d888bd7239eb3555578520e8452c509139920a",
+      "bytes": 15497
+    },
+    "skills/wika-displayer-online/scripts/scp_get.py": {
+      "sha256": "1d9d732ec2a1e6747efa1df342f94a90db1306a80d434f76fd25c8a23cc611ad",
+      "bytes": 1080
+    },
+    "skills/wika-displayer-online/scripts/scp_put.py": {
+      "sha256": "0b133ca7940afe58cf46bab63f773664447a7683775f2845dc9be583e6be04c5",
+      "bytes": 1066
+    },
+    "skills/wika-displayer-online/scripts/ssh_cmd.py": {
+      "sha256": "34ec2b30b26153e3973ee5d9576682dd3b34cccff374dbd091f7a3137a8c8377",
+      "bytes": 995
+    },
+    "skills/wika-displayer-online/SKILL.md": {
+      "sha256": "632b4df2fce1dac3642e63a20b57062604139cf6214b8094bc58e782b656c8b3",
+      "bytes": 9727
+    },
+    "skills/wika-eds-edit/SKILL.md": {
+      "sha256": "8dcfaa41117759b41188a26e938ad7d6d33210acd93b6d267fcb26af52d46874",
+      "bytes": 7772
+    },
+    "skills/wika-translate-skill/references/format.md": {
+      "sha256": "a4a82e419ef83454ac9691f94611bc98a9a095302e1d09339167c03d06b1a68c",
+      "bytes": 3161
+    },
+    "skills/wika-translate-skill/references/glossary.md": {
+      "sha256": "6de854b997bf4349bc6b0889df24f955e05dda13b76015aa85d0bcd3e8eda89e",
+      "bytes": 3771
+    },
+    "skills/wika-translate-skill/scripts/wika_i18n.py": {
+      "sha256": "cfa25a536390369919ca1e66e834b8c9fe974c31ed854aa3e012a7c0aaefd867",
+      "bytes": 13185
+    },
+    "skills/wika-translate-skill/SKILL.md": {
+      "sha256": "a233697973027a4a5b70d9cb649255345439f3df89302926b08c6bafe04cc489",
+      "bytes": 8024
+    },
+    "skills/wika-ui-index/assets/tz956e-ui-index.json": {
+      "sha256": "e088626cd57e6b31594173e83685532ffd487f11e7a6d86fc385854171d44319",
+      "bytes": 1523
+    },
+    "skills/wika-ui-index/references/profile-and-limits.md": {
+      "sha256": "3d0928cbdd83809685fe9862b34fe963494a66da2ec736811264ae0e714015cb",
+      "bytes": 6391
+    },
+    "skills/wika-ui-index/references/tz956e-validation.md": {
+      "sha256": "99b69ffba295d307b10de12485c1a631f45ac22507ee837089d3e49aa97efebd",
+      "bytes": 2447
+    },
+    "skills/wika-ui-index/scripts/ui_index.py": {
+      "sha256": "d6a73938bad0a2a6a64210d981887520876ce7f8d207f37129eb88879c58f0a3",
+      "bytes": 36180
+    },
+    "skills/wika-ui-index/SKILL.md": {
+      "sha256": "597495327f8b9c9bc169244be985a063669ddee2b0f09ecd905b7e1b9c91eee1",
+      "bytes": 4707
+    },
+    "THIRD_PARTY.md": {
+      "sha256": "4d8af5d15eb01059466eb17955ee524d0fe7c1b16e24d04a6fec57a13ae19c0f",
+      "bytes": 1507
+    }
+  }
+}

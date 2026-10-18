@@ -1,0 +1,4 @@
+{
+  "displayName": "Esafenet Decrypt",
+  "brief": "Identify and offline-decrypt Esafenet transparent encryption (recover 512-byte pad from known plaintext)"
+}
